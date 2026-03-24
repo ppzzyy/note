@@ -10,6 +10,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
+# 设置中文字体，解决中文乱码/缺字问题
+plt.rcParams['font.sans-serif'] = ['Microsoft YaHei', 'SimHei', 'STSong']
+plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
+
 # ============================================================
 # 1. Clark 变换（abc → αβ）
 # ============================================================
