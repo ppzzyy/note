@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "zh-CN",
-    baseUrl: "ppzzyy.github.io/knowledge-notes",
+    baseUrl: "ppzzyy.github.io/note",
     ignorePatterns: [
       ".obsidian",
       ".git",
